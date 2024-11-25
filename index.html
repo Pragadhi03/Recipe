@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Page</title>
+    <link rel="icon" href="recipelogo.jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Explore Delicious Recipes</h1>
+    </header>
+
+    <main>
+        <section class="categories">
+            <div class="category" id="indian" onclick="navigateTo('indian.html')" style="background-color: #f8b400;">
+                <div class="category-left">
+                    <img src="indian cuisine.jpeg" alt="Indian Cuisine">
+                </div>
+                <div class="category-right">
+                    <h2>Indian</h2>
+                    <p>Explore the rich and diverse flavors of India.</p>
+                </div>
+            </div>
+
+            <div class="category" id="chinese" onclick="navigateTo('chinese.html')" style="background-color: #ff7043;">
+                <div class="category-left">
+                    <img src="chinese cuisine.jpeg" alt="Chinese Cuisine">
+                </div>
+                <div class="category-right">
+                    <h2>Chinese</h2>
+                    <p>Delight in the bold and savory tastes of China.</p>
+                </div>
+            </div>
+
+            <div class="category" id="japanese" onclick="navigateTo('japanese.html')" style="background-color: #4caf50;">
+                <div class="category-left">
+                    <img src="japanese cuisine.jpeg" alt="Japanese Cuisine">
+                </div>
+                <div class="category-right">
+                    <h2>Japanese</h2>
+                    <p>Experience the delicate and elegant cuisine of Japan.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2024 Recipe Hub</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
